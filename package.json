@@ -6,7 +6,8 @@
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview",
-    "generate-manifest": "node generate-manifest.js"
+    "generate-manifest": "node generate-manifest.js",
+    "tree": "node tree.js"
   },
   "devDependencies": {
     "@supabase/supabase-js": "^2.14.0",
@@ -39,6 +40,7 @@
   "dependencies": {
     "@prisma/client": "^4.12.0",
     "@tailwindcss/forms": "^0.5.3",
+    "canvas": "^2.11.2",
     "dotenv": "^16.0.3"
   }
 }
