@@ -18,6 +18,9 @@ const config = {
   preprocess: [
     preprocess({
       postcss: true,
+      typescript: {
+        tsconfigFile: './tsconfig.json',
+      },
     }),
   ],
 };
